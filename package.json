@@ -15,8 +15,6 @@
   "license": "MIT",
   "main": "dist/src/index.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc",
     "format:fix": "prettier --write  \"src/**\" \"__tests__/**\"",
     "format": "prettier --check \"src/**\" \"__tests__/**\"",
     "lint": "eslint src __tests__",
