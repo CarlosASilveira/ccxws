@@ -22,7 +22,7 @@
     "lint": "eslint src __tests__",
     "test": "nyc --reporter=lcov --reporter=text --extension=.ts mocha --require ts-node/register --recursive \"__tests__/**/*.spec.ts\""
   },
-  "repository": "altangent/ccxws",
+  "repository": "CarlosASilveira/ccxws",
   "dependencies": {
     "crc": "^3.8.0",
     "decimal.js": "^10.2.0",
